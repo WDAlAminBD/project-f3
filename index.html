@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froot Grocery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+<style>
+    .sora-uniquifier> {
+  font-family: "Sora", serif;
+  
+    }
+    
+</style>
+</head>
+<body class="sora-uniquifier">
+    <section class="bg-orange-50">
+      <header class="w-8/9 mx-auto ">
+        <nav>
+            <div class="navbar bg-gradient-to-r from-cyan-500 to-blue-500">
+                <div class="flex-1">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      
+                      <li><a>Product</a></li>
+                   
+                      <li><a>Services</a></li>
+                      <li><a>Contact us</a></li>
+                      
+                    </ul>
+                  </div>
+                  <img class="h-17 w-23 border-2 " src="/Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex sm:navbar-end">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                   
+                    <li><a>Services</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="gap-4 ">
+                  <button ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg></button>
+                    <button class="p-2  rounded">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m1.5-4.15a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    </button>
+                    <a class="btn">Login</a>
+                  <a class="btn btn-success">Register</a>
+              
+                </div>
+              </div>
+        </nav>
+        <div class="mt-10">
+          <div class="text-center">
+            <h1 class="text-5xl">Freshness <span class="text-green-500">You Can</span> <br><span class="text-green-500">Count</span> On, Prices You’ll Love!</h1>
+            <p class="text-gray-700">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br>staples, we’ve got you covered every day!/p>
+          </div>
+          <div>
+            <img class="w-150 h-150 mx-auto mt-10" src="/Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+          </div>
+        </div>
+    </header>
+    
+    </section>
+    <main>
+      <section class=" mx-50 mt-10">
+        <h1 class="text-5xl text-green-500 mb-10">Service</h1>
+        <div class="lg:flex grid sm:grid-cols-1  h-70 gap-8">
+          <div class="card bg-orange-50 w-70 sm:mx-auto shadow-xl">
+            <figure class="bg-white-500 p-4">
+              <img
+              class="h-15 w-12 pt-6 "
+                src="/Assignment_03_Category_0002/c2-assets/service.png"
+                alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-center">
+                24/7 Services 
+                
+              </h2>
+              <p>We provide good quality of food.If you need fresh food come to our shop.we provided safe home delivary within 24 hours.</p>
+             
+            </div>
+          </div>
+          <div class="card bg-orange-50 w-70 shadow-xl">
+            <figure>
+              <img
+              class="h-15 w-12 pt-10 "
+                src="/Assignment_03_Category_0002/c2-assets/delivery.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Healthy Products 
+              
+              </h2>
+              <p>We provide good quality of food.If you need fresh food come to our shop.we provided safe home delivary within 24 hours.</p>
+              
+            </div>
+          </div>
+          <div class="card bg-orange-50 w-70 shadow-xl">
+            <figure>
+              <img
+              class="h-15 w-12 pt-10 "
+                src="/Assignment_03_Category_0002/c2-assets/healthy.png"
+                alt="" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Fast Delivery
+                
+              </h2>
+              <p>We provide good quality of food.If you need fresh food come to our shop.we provided safe home delivary within 24 hours.</p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-orange-300 h-100  ">
+        <div class="  gap-5 m-5 pt-10  grid grid-cols-4">
+          <div class=" bg-green-400   row-span-3">
+            <div></div> 
+            <div>
+              <img src="/Assignment_03_Category_0002/c2-assets/vegetable-offer.png" alt="">
+            </div>
+            
+          </div>
+
+
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+
+
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+       <div class=" bg-white h-20 w-40 relative rounded-lg ">
+        <div class="  flex">
+          <div class="relative"><img src="/Assignment_03_Category_0002/c2-assets/onion.png" alt=""></div>
+          <div class=" flex relative gap-2">
+          <div><img class="absolute border h-5 w-5" src="/Assignment_03_Category_0002/c2-assets/star.png" alt=""></div>
+          <div><p class="m-5 mt-0">4.5</p></div>
+          </div>
+          
+        </div>
+        <div class="relative -mt-13 ml-18"><p>Onion 1kg</p>
+          <p>$39.99</p></div>
+       </div>
+        </div>
+      </section>
+    </main>
+</body>
+      
